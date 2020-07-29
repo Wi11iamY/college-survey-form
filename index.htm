@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+        <script src="myscripts.js"></script>
+        <title>UC Merced | College Survey Form</title>
+    </head>
+    <body>
+        <div id="main" class="component">
+            <h1 id="title">College Survey Form</h1>
+
+            <p id="description"><i>Thank you for taking the time fill out this survey</i> </p>
+
+            <form id="survey-form">
+                <!--Input: Fill in Information -->
+                <label for="name" id="name-label">Name</label><br> 
+                <input type="text" id="name" placeholder="Ex. Toph Beifong" required><br><br>
+                
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" id="email" placeholder="Ex. Katara_watertribe@outlook.com" required><br><br>
+
+                <label for="number" id="number-label">Age</label><br>
+                <input type="number"  id="number" placeholder="Ex. 21" min="1" max="100"><br><br>
+
+                <!--Input: Dropdown Menu-->
+                <label for="dropdown">College Major</label><br>
+                <select name="major" id="dropdown">
+                    <option value="major">---Select---</option>
+                    <option value="major">Computer Science & Engineering</option>
+                    <option value="major">Mechanical Engineering</option>
+                    <option value="major">Electrical Engineering</option>
+                    <option value="major">Bio-Engineering</option>
+                    <option value="major">Biology</option>
+                    <option value="major">Cognitive Science</option>
+                    <option value="major">Psychology</option>
+                    <option value="major">Sociology</option>
+                    <option value="major">English</option>
+                    <option value="major">Other</option>
+                </select><br><br>
+
+                <!--Input: Radio's-->
+                <label name="year">What is Your Year in College?</label><br>
+
+                <input type="radio" id="freshman" name="year" value="freshman">
+                <label>Freshman (1<sup>st</sup> Year)</label><br>
+
+                <input type="radio" id="sophmore" name="year" value="sophmore">
+                <label>Sophmore (2<sup>nd</sup> Year)</label><br>
+
+                <input type="radio" id="junior" name="year" value="junior">
+                <label>Junior (3<sup>rd</sup> Year)</label><br>
+                
+                <input type="radio" id="senior" name="year" value="senior">
+                <label>Senior (4<sup>th</sup> Year)</label><br>
+                
+                <input type="radio" id="super" name="year" value="super">
+                <label>Super Senior (5+ Years)</label><br><br>
+
+                 <!--Input: Dropdown Menu-->
+                 <label for="dropdown">Favorite Study Area</label><br>
+                 <select name="study" id="dropdown">
+                     <option value="study">---Select---</option>
+                     <option value="study">Library</option>
+                     <option value="study">Dorm Room</option>
+                     <option value="study">Quad</option>
+                     <option value="study">Lantern Cafe</option>
+                     <option value="study">Dorm Building Study Room</option>
+                     <option value="study">Off-Campus</option>
+                     <option value="major">Other</option>
+                 </select><br><br>
+
+                <!--Checkboxes-->
+                <label name="extras" class="extras">Most Recommended On-Campus Food <font size="-1"><i>(Check all that aplly)</i></font></label><br>
+
+                <input type="checkbox" id="food1" name="food1" value="yablokoff">
+                <label>Yablokoff Wallace Dining Center (aka old DC)</label><br>
+
+                <input type="checkbox" id="food2" name="food3" value="cascabel">
+                <label>Cascabel (The Pavilion)</label><br>
+
+                <input type="checkbox" id="food3" name="food3" value="ciao">
+                <label>Ciao (The Pavilion)</label><br>
+
+                <input type="checkbox" id="food4" name="food4" value="grounds">
+                <label>Common Grounds (The Pavilion)</label><br>
+
+                <input type="checkbox" id="food5" name="food5" value="greens">
+                <label>Field of Greens (The Pavilion)</label><br>
+
+                <input type="checkbox" id="food6" name="food6" value="wok">
+                <label>Lake Wok (The Pavilion)</label><br>
+
+                <input type="checkbox" id="food7" name="food7" value="grill">
+                <label>Rufus Grill (The Pavilion)</label><br>
+
+                <input type="checkbox" id="food8" name="food8" value="trucks">
+                <label>Food Trucks</label><br>
+
+                <input type="checkbox" id="food9" name="food9" value="cafe">
+                <label>Lantern Cafe</label><br>
+
+                <input type="checkbox" id="food10" name="food10" value="summits">
+                <label>Summits Marketplace</label><br>
+
+                <input type="checkbox" id="food11" name="food11" value="other">
+                <label>Other</label><br><br>
+
+                <!--Input: Textarea-->
+                <label for="textarea">Additional Comments or Suggestions</label><br>
+                <textarea id="textarea" name="textarea" placeholder="Enter your comment here..." rows="5" cols="50"></textarea><br><br>
+
+                <!--Input: Submit-->
+                <input type="submit" id="submit" value="Submit">
+            </form>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </div>
+    </body>
+    
+</html>

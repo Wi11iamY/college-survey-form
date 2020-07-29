@@ -1,0 +1,111 @@
+html {
+    height: 100%;
+}
+
+body{
+    align-items: center;
+    background-attachment: fixed;
+    background-image: url("ucm.jpg") /*url("https://collegevine.imgix.net/757a7935-0836-4b5b-91b3-379194ac8d4d.jpg")*/;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px ;
+    display: flex;
+    font-family: Franklin Gothic, Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+h1{
+    margin-bottom: -10px;
+    text-align: center;
+}
+
+p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.component{
+    border-radius: 5px;
+    background-color: rgba(58, 99, 146, 0.904);
+    color: rgb(230, 230, 230);
+    padding: 20px;
+    width: 50%;
+}
+
+input[type=text]{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin-top: 5px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+input[type=email]{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin-top: 5px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+input[type=number]{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+    margin-top: 5px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+select[name=major]{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+input[type=radio]{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+input[type=checkbox]{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+select[name=study]{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: medium;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+textarea{
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Franklin Gothic, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-top: 5px;
+    padding: 8px 10px;
+    width: 100%;
+}
+
+input[type=submit]{
+    background-color: rgb(212, 192, 73);
+    border: 4px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: Franklin Gothic, Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-top: 5px;
+    padding: 10px 10px;
+    width: 100%;
+}
